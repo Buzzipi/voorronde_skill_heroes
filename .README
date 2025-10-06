@@ -1,6 +1,22 @@
-SYMFONY KEUZEDEEL SOFTWARE
+[[SYMFONY KEUZEDEEL SOFTWARE]]
 
-dit is software wat gebruikt wordt om keuzedelen te kiezen, en aan te maken.
+
+
+dit is software wat gebruikt wordt om keuzedelen te kiezen, en aan te maken. Het is opgebouwd met het Symfony framework, en maakt gebruik van yarn voor front-end dependencies.
+
+
+
+Zorg er eerst voor dat je een local hosted database hebt (bijvoorbeeld gehost met xampp). Deze applicatie heeft een database nodig om users en keuzdelen op te slaan
+
+
+
+Nadat de database is opgezet, vervang je de value van de variable DATABASE_URL in .env met de database_url van je database.
+(je url bestaat uit het volgende: [TYPE-DATABASE]://[DB-USER]:[DB-PASSWORD]@[DB-HOST]:[DB-PORT]/[DB-NAME])
+
+
+
+nadat de db is opgezet en verbonden is met de applicatie, moeten de dependencies geïnstalleerd worden.
+
 
 
 Het project is opgebouwd met symfony, als eerst moeten alle dependencies geïnstalleerd worden. Type het volgende in de command line van de project path
@@ -13,6 +29,18 @@ yarn install
 
 
 hierna kan je het project locally runnen door 'symfony serve' in de cmd te typen.
+
+
+
+
+
+
+
+
+
+
+eenmaal bij de website, moet een gebruiker inloggen (of een account maken). Wat die user kan doen en bekijken hangt af van zijn of haar rol.
+
 
 
 
