@@ -1,0 +1,29 @@
+SYMFONY KEUZEDEEL SOFTWARE
+
+dit is software wat gebruikt wordt om keuzedelen te kiezen, en aan te maken.
+
+
+Het project is opgebouwd met symfony, als eerst moeten alle dependencies geïnstalleerd worden. Type het volgende in de command line van de project path
+
+composer install
+
+npm install -g yarn
+
+yarn install
+
+
+hierna kan je het project locally runnen door 'symfony serve' in de cmd te typen.
+
+
+
+rollen:
+
+ADMIN:
+
+kan keuzedelen verwijderen, aanpassen en aanmaken
+
+
+
+STUDENT:
+
+kan bij keuzedelen aanmelden en keuzdelen inzien.
